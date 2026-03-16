@@ -1,0 +1,47 @@
+@import "tailwindcss";
+
+:root {
+  --bg: #0a0a0a;
+  --bg-panel: #111111;
+  --bg-hover: #1a1a1a;
+  --border: #2a2a2a;
+  --border-bright: #404040;
+  --text-primary: #e8e8e8;
+  --text-dim: #666666;
+  --text-muted: #404040;
+  --corr-strong-pos: #00ff88;
+  --corr-mod-pos: #88ff44;
+  --corr-neutral: #aaaaaa;
+  --corr-mod-neg: #ffaa00;
+  --corr-strong-neg: #ff3333;
+  --accent: #00aaff;
+  --warning: #ffcc00;
+  --error: #ff4444;
+  --success: #00ff88;
+}
+
+@theme inline {
+  --color-background: var(--bg);
+  --color-foreground: var(--text-primary);
+  --font-mono: var(--font-mono);
+}
+
+body {
+  background: var(--bg);
+  color: var(--text-primary);
+}
+
+button,
+input,
+select {
+  font-family: var(--font-mono), monospace;
+}
+
+@keyframes ticker {
+  from {
+    transform: translateX(0%);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
