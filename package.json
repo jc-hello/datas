@@ -18,7 +18,8 @@
     "lru-cache": "^11.2.7",
     "lucide-react": "^0.577.0",
     "ml-matrix": "^6.12.1",
-    "next": "15.5.3",
+    "next": "15.5.12",
+    "protobufjs": "^7.5.4",
     "react": "19.2.3",
     "react-dom": "19.2.3",
     "react-intersection-observer": "^10.0.3",
@@ -33,7 +34,7 @@
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "eslint": "^8.57.1",
-    "eslint-config-next": "15.5.3",
+    "eslint-config-next": "15.5.12",
     "tailwindcss": "^4",
     "typescript": "^5"
   }
